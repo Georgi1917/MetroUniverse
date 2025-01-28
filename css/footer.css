@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+    border: 1px solid white;
+    margin-top: 0.8em;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.footer p:nth-child(2) {
+    font-size: 1.8em;
+}
+
+.footer p:nth-child(2) a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer p:nth-child(2) a:hover {
+    color: black;
+}
+
+@media (max-width: 350px) {
+    .footer p {
+        font-size: 1.1em;
+    }
+
+    .footer p:nth-child(2) {
+        font-size: 1.6em;
+    }
+}
